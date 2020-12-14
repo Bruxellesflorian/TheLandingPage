@@ -1,4 +1,4 @@
-@media only screen and (max-width: 808px) {
+@media only screen and (max-width: 656px) {
     .test {
         display: none;
     }
@@ -16,59 +16,21 @@
     }
 
     .deroul {
-        font-size: 60px;
-        text-align: center;  
-    }
-
-    .wel {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
-
-    body>div.center>div.wel>div {
-        font-size: 50px;
-
-    }
-
-    .digitalTimer {
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: 550px;
-        left: 90px;
-        font-size: 50px;
-        visibility: visible;
+        width: 100vh;
+        font-size: 49px;
+        text-align: center;   
+        margin-right:22vh;
+        margin-left:22vh; 
     }
 
 }
 @media only screen and (max-width: 361px) {
-    .deroul {
-        position: absolute;
-        left: 40%;
-        right: 40%;
-        top: 300px;
-        font-size: 30px;
-        text-align: center;  
-    
+
+    .deroul{
+        margin-right:20%;
+        
     }
-        .wel {
-        position: absolute;
-        top: -90px;
-        left: 0px;
-    }
-    .digitalTimer {
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: 300px;
-        left: 90px;
-        font-size: 50px;
-        visibility: visible;
-    }
-    .posNAV{
-        width: fit-content;
-    }
+  
 }
 
 
@@ -82,16 +44,23 @@ html {
 }
 
 .wel {
-    font-size: larger;
+    font-size: 30px;
     position: absolute;
-    padding-left: 55px;
+    top: 0px;
     text-align: center;
     margin-top: 120px;
     font-weight: bold;
     color: white;
+
 }
 
+.centreMoiCaPutain{
+    
+    display: flex;
+    justify-content: center;
+}
 .center {
+    
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -162,7 +131,7 @@ html {
 .deroul {
     padding: 10px;
     position: absolute;
-    right: 20px;
+    right: 30px;
     color: white;
     width: 0px;
     height: fit-content;
@@ -172,11 +141,11 @@ html {
     background-size: cover;
 
 }
-
 .digitalTimer {
-
-    display: flex;
-    justify-content: center;
-    margin-top: -50px;
-
+    position: absolute;
+    top: 650px;
+    transition-duration: 1s;
+}
+.digitalTimer:hover{
+    background-color: rgb(134, 123, 123);
 }

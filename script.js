@@ -57,7 +57,8 @@ function refreshClock() {
         hr = "0" + hr
     }
     timerNum.innerHTML = hr + ":" + min + ":" + sec
-    body.appendChild(timerNum)
+    const centerum = document.querySelector(".centreMoiCaPutain")
+    centerum.appendChild(timerNum)
 }
 window.setInterval(refreshClock, 1000)
 
