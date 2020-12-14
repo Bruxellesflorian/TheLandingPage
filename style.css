@@ -14,7 +14,12 @@
     .hr {
         display: none;
     }
+    .time.wel{
+        position: absolute;
+        margin-top: 50px;
+       
 
+    }
     .deroul {
         width: 100vh;
         font-size: 49px;
