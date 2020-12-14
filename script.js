@@ -1,6 +1,6 @@
 const body = document.body
 body.classList.add("pos")
-body.style.backgroundImage = "url(/image/" + Math.floor(Math.random() * Math.floor(8)) + ".jpg)"
+body.style.backgroundImage = "url(./image/" + Math.floor(Math.random() * Math.floor(8)) + ".jpg)"
 const time = document.querySelector(".time")
 
 
@@ -81,18 +81,18 @@ function myFunction(query) {
             variable.style.background = background
         }
         horlogeBtn.addEventListener("mouseover", function () {
-            changebtn("url(image/Capture.PNG)", "Tuto Horloge JS", horlogeBtn, "black")
+            changebtn("url(./image/Capture.PNG)", "Tuto Horloge JS", horlogeBtn, "black")
         })
 
         hungryBtn.addEventListener("mouseover", function () {
-            changebtn("url(image/Capture1.PNG)", "Slipknot", hungryBtn, "black")
+            changebtn("url(./image/Capture1.PNG)", "Slipknot", hungryBtn, "black")
         })
 
         happyBtn.addEventListener("mouseover", function () {
-            changebtn("url(image/Capture2.PNG)", "Vacances ?", happyBtn, "black")
+            changebtn("url(./image/Capture2.PNG)", "Vacances ?", happyBtn, "black")
         })
         perso.addEventListener("mouseover", function () {
-            changebtn("url(image/Capture3.PNG)", "GitPage", perso, "black")
+            changebtn("url(./image/Capture3.PNG)", "GitPage", perso, "black")
         })
         deroul.addEventListener("mouseout", function () {
             changebtn("", "", horlogeBtn, "")
