@@ -17,7 +17,7 @@
 
     .deroul {
         font-size: 60px;
-        text-align: center;
+        text-align: center;  
     }
 
     .wel {
@@ -42,6 +42,35 @@
     }
 
 }
+@media only screen and (max-width: 361px) {
+    .deroul {
+        position: absolute;
+        left: 40%;
+        right: 40%;
+        top: 300px;
+        font-size: 30px;
+        text-align: center;  
+    
+    }
+        .wel {
+        position: absolute;
+        top: -90px;
+        left: 0px;
+    }
+    .digitalTimer {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 300px;
+        left: 90px;
+        font-size: 50px;
+        visibility: visible;
+    }
+    .posNAV{
+        width: fit-content;
+    }
+}
+
 
 html {
     font-family: sans-serif;
@@ -112,9 +141,9 @@ html {
 
 .posNAV {
     position: absolute;
-    right: 0px;
+    right: 20px;
     top: 20px;
-    width: 100px;
+    width: fit-content;
     height: 100px;
 }
 
@@ -133,7 +162,7 @@ html {
 .deroul {
     padding: 10px;
     position: absolute;
-    right: 80px;
+    right: 20px;
     color: white;
     width: 0px;
     height: fit-content;
